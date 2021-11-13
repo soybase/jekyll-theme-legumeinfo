@@ -1,3 +1,7 @@
 a {
   color: #006600;
 }
+
+.tm-navbar-container:not(.uk-navbar-transparent) {
+    background: #817339;
+}

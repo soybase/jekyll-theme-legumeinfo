@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% assign tool = site.data.tools | where: "url", page.title %}
+
+<h2><i>{{ tool[0].name }} </i></h2>
+
+<iframe src="{{ tool[0].tool_url }}" style="display: flex; width: 100vh; height: 100vh; flex-direction: column;"></iframe>

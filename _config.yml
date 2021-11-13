@@ -14,3 +14,10 @@ page_gen:
     name: genus
     index_files: true
     debug: true
+  - data: tools
+    template: tools
+    page_data_prefix: tools
+    dir: tools
+    name: url
+    index_files: true
+    debug: true
